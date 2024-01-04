@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>food website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fsa fa-stram navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore-food">Explore Foods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Reviews</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#food-items" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Food Items
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Indian-Food">Indian-Food</a></li>
+                <li><a class="dropdown-item" href="#Chinese">Chinese-Food</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#Desserts">Desserts</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li> -->
+            <!-- <li><button class="main-btn">1200 345 435</button></li>  -->
+
+          </ul>
+          <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>  -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Good Food Choices Are Good Food Investments.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi officiis minus illum distinctio soluta
+              nam.</p>
+            <div class="mt-4">
+              <button class="order-btn">Order Now <i class="fa-solid fa-basket-shopping shop-basket"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about">
+    <div class="about-section wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img class="img-fluid" src="../img-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+            <h2>We Pride ourselves on making real food from the best ingridents.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tenetur nemo sint fugiat? Consequatur
+              incidunt neque nam! Excepturi, necessitatibus magni.
+            </p>
+            <button class="order-btn mt-4">Learn Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container food-type">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+            <h2>We Make Everthing By Hand With The Best Possible Ingridents </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident ut distinctio, optio
+              aspernatur voluptatibus culpa sunt. Delectus, eaque incidunt.</p>
+            <ul class="list-unstyled py-3">
+              <li>Etiam sed dolor ac diam volutpat.</li>
+              <li>Erat volupat aliquet imperdiet.</li>
+              <li>purus a odio finibus bibendum.</li>
+            </ul>
+            <button class="order-btn mt-4">Learn Now</button>
+
+          </div>
+
+          <div class="col-lg-7 col-md-12">
+            <div class="card border-0 ">
+              <img src="/img-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="story">
+    <div class="story-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content">
+              <h2>When a man's stomach is full it makes <br>
+                no difference whether he is rich or poor.
+              </h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui similique quod ut quo ipsam, <br>
+                sapiente expedita dolore architecto veritatis.</p>
+              <button class="order-btn mt-3">Read More</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="explore-food">
+    <div class="explore-food">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-content text-center">
+              <h2>Explore Food</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Libero nobis alias quibusdam! Dignissimos obcaecati odio accusamus expedita doloremque iusto recusandae
+                eveniet.
+                Beatae, voluptates. Numquam, blanditiis a ad dolore reprehenderit cum?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="/img-3.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable Sandwich</h4>
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="order-btn mt-4">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="/img-4.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Vegetarian Burger</h4>
+                <p>Time:30 - 45 Minutes | serves: 1 </p>
+                <span>$9.50 <del>$10.70</del></span>
+                <button class="order-btn mt-4">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="/img-5.jpg" class="img-fluid" alt="">
+              <div class="pt-3">
+                <h4>Raspberry Stuffed French Toast</h4>
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="order-btn mt-4">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="review">
+    <div class="review-section">
+      <div class="container text-center">
+        <div class="pb-4 text-center">
+          <h2 class="review-text">Reviews</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-lg-10 offset-lg-1">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-caption">
+                    <img src="/review-1.jpg">
+                    <p>“I was so impressed with my breakfast this morning! I tried the Fried Green Tomato Benedict and
+                      my boyfriend got the Crab Cakes Benedict.
+                      We both finished our whole plates and were so impressed with the quality of the food and the short
+                      amount of time it took to receive it.
+                      Our waitress was sweet and helpful. I will definitely be back!” </p>
+                    <h5>Kristine R - UI/UX DESIGNER</h5>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="/review-2.jpg" class="d-block w-100" alt="...">
+                    <p>“I was so impressed with my breakfast this morning! I tried the Fried Green Tomato Benedict and
+                      my boyfriend got the Crab Cakes Benedict.
+                      We both finished our whole plates and were so impressed with the quality of the food and the short
+                      amount of time it took to receive it.
+                      Our waitress was sweet and helpful. I will definitely be back!” </p>
+                    <h5>Maccy doe - Front End</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img src="/review-1.jpg" class="d-block w-100" alt="...">
+                    <p>“I was so impressed with my breakfast this morning! I tried the Fried Green Tomato Benedict and
+                      my boyfriend got the Crab Cakes Benedict.
+                      We both finished our whole plates and were so impressed with the quality of the food and the short
+                      amount of time it took to receive it.
+                      Our waitress was sweet and helpful. I will definitely be back!” </p>
+                    <h5>Kristine R - UI/UX DESIGNER</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="food-items">
+    <section id="Indian-Food">
+      <img src="indian-food.jpg" class="img-fluid indian-food" alt="...">
+      <h2>Indian Food</h2>
+      <div class="container text-center">
+        <div class="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Pakora</h4>
+                <img src="pakoda.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chaat</h4>
+                <img src="chaat.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Vada Pav</h4>
+                <img src="bada paw.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Paratha</h4>
+                <img src="paratha.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Aloo Gobhi</h4>
+                <img src="aloo gobhi.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Dal Tadka</h4>
+                <img src="daal-tadka.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Shahi Paneer</h4>
+                <img src="sahi Paneer.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Butter Paneer</h4>
+                <img src="butter-paneer.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Butter Chicken</h4>
+                <img src="butter chicken.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Biryani</h4>
+                <img src="biryani.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chicken Karahi</h4>
+                <img src="chicken karahi.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chicken Tandoori</h4>
+                <img src="tandoori chicken.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Chinese">
+      <img src="chinese food.jpg" class="img-fluid indian-food" alt="...">
+      <h2>Chinese Menu</h2>
+      <div class="container text-center">
+        <div class="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Momos</h4>
+                <img src="momos.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chowmein</h4>
+                <img src="chowmein.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Fried Rice</h4>
+                <img src="veg-fried-rice.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Spring Roll</h4>
+                <img src="wspring-rolls.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Manchuriyan</h4>
+                <img src="manchuriyan.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Mushroom</h4>
+                <img src="mushrooms.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chilli Potato</h4>
+                <img src="chilli potao.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Spicy Crayfish</h4>
+                <img src="cray fish.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Steamed Crab</h4>
+                <img src="steamed crab.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Biryani</h4>
+                <img src="biryani.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chicken Karahi</h4>
+                <img src="chicken karahi.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chicken Tandoori</h4>
+                <img src="tandoori chicken.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+
+      <!-- <div class="menu-item">
+          <h3>Vegetable Spring Rolls</h3>
+          <p>Crispy spring rolls filled with mixed vegetables.</p>
+      </div> -->
+
+
+    </section>
+
+    <section id="Desserts">
+      <img src="Desserts.jpg" class="img-fluid indian-food" alt="...">
+      <h2>Desserts</h2>
+      <div class="container text-center">
+        <div class="row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Mocha Cruch Mocktail</h4>
+                <img src="mocha crunch.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Sheet shake Cake</h4>
+                <img src="sheet shake.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Classic Tiramisu</h4>
+                <img src="tiramisu.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Cheese Cake</h4>
+                <img src="cheesecake.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Swiss Roll</h4>
+                <img src="swiss Roll.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Flan</h4>
+                <img src="flan.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                  <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Chilli Potato</h4>
+                <img src="chilli potao.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Spicy Crayfish</h4>
+                <img src="cray fish.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col">
+            <div class="p-3">
+              <div class="card menu-item" style="width: 18rem;">
+                <h4>Steamed Crab</h4>
+                <img src="steamed crab.jpg" class="card-img-top card-image" alt="...">
+                <p>Time:15 - 20 Minutes | serves: 1 </p>
+                <span>$10.50 <del>$11.70</del></span>
+                <div class="card-body">
+                 <button class="order-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+
+
+    </section>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
